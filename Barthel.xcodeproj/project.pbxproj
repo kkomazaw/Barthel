@@ -327,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 5.1;
 				DEVELOPMENT_TEAM = 7GW64MW9FF;
 				INFOPLIST_FILE = Barthel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -334,10 +335,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = WF68CP2P77.Barthel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "44e15622-2478-4c8e-86c3-9b3ee4424c93";
-				PROVISIONING_PROFILE_SPECIFIER = PP170811Barthel;
+				PROVISIONING_PROFILE_SPECIFIER = "Barthel (Development)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -348,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 5.1;
 				DEVELOPMENT_TEAM = 7GW64MW9FF;
 				INFOPLIST_FILE = Barthel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -355,10 +358,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = WF68CP2P77.Barthel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4b5b9f98-a591-4d4a-bcb5-8c473db2176c";
-				PROVISIONING_PROFILE_SPECIFIER = DP170811Barthel;
+				PROVISIONING_PROFILE_SPECIFIER = "Barthel (Distribution)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
