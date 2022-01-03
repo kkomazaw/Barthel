@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6853821C1F261A1A005C1B20 /* BarthelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853821B1F261A1A005C1B20 /* BarthelTableViewController.swift */; };
+		68599F1E1F0D2D0E00866D70 /* Barthel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68599F1C1F0D2D0E00866D70 /* Barthel.xcdatamodeld */; };
+		68853E341F3D569F000ED841 /* ADLTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68853E331F3D569F000ED841 /* ADLTableViewController.swift */; };
+		68853E361F3D56D6000ED841 /* ADLDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68853E351F3D56D6000ED841 /* ADLDetailViewController.swift */; };
+		68C237AC1EF80BEE00A39C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C237AB1EF80BEE00A39C8B /* AppDelegate.swift */; };
+		68C237B11EF80BEE00A39C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C237AF1EF80BEE00A39C8B /* Main.storyboard */; };
+		68C237B31EF80BEE00A39C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C237B21EF80BEE00A39C8B /* Assets.xcassets */; };
+		68C237B61EF80BEE00A39C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C237B41EF80BEE00A39C8B /* LaunchScreen.storyboard */; };
+		68C237BE1EF8113500A39C8B /* BarthelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C237BD1EF8113500A39C8B /* BarthelViewController.swift */; };
+		68C237C01EF8114D00A39C8B /* FIMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C237BF1EF8114D00A39C8B /* FIMViewController.swift */; };
+		68C237C21EF8116200A39C8B /* ADLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C237C11EF8116200A39C8B /* ADLViewController.swift */; };
+		68C237C41EF8118900A39C8B /* KaigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C237C31EF8118900A39C8B /* KaigoViewController.swift */; };
+		68C86D781F375B290014A8FB /* FIMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C86D771F375B290014A8FB /* FIMTableViewController.swift */; };
+		68C86D7A1F375E9E0014A8FB /* FIMDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C86D791F375E9E0014A8FB /* FIMDetailViewController.swift */; };
+		68E0AFFC1F2D833B00915118 /* BarthelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E0AFFB1F2D833B00915118 /* BarthelDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6853821B1F261A1A005C1B20 /* BarthelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarthelTableViewController.swift; sourceTree = "<group>"; };
+		68599F1D1F0D2D0E00866D70 /* Barthel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barthel.xcdatamodel; sourceTree = "<group>"; };
+		68853E331F3D569F000ED841 /* ADLTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLTableViewController.swift; sourceTree = "<group>"; };
+		68853E351F3D56D6000ED841 /* ADLDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLDetailViewController.swift; sourceTree = "<group>"; };
+		68C237A81EF80BEE00A39C8B /* Barthel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barthel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C237AB1EF80BEE00A39C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68C237B01EF80BEE00A39C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68C237B21EF80BEE00A39C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68C237B51EF80BEE00A39C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68C237B71EF80BEE00A39C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C237BD1EF8113500A39C8B /* BarthelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarthelViewController.swift; sourceTree = "<group>"; };
+		68C237BF1EF8114D00A39C8B /* FIMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIMViewController.swift; sourceTree = "<group>"; };
+		68C237C11EF8116200A39C8B /* ADLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLViewController.swift; sourceTree = "<group>"; };
+		68C237C31EF8118900A39C8B /* KaigoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaigoViewController.swift; sourceTree = "<group>"; };
+		68C86D771F375B290014A8FB /* FIMTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIMTableViewController.swift; sourceTree = "<group>"; };
+		68C86D791F375E9E0014A8FB /* FIMDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIMDetailViewController.swift; sourceTree = "<group>"; };
+		68E0AFFB1F2D833B00915118 /* BarthelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarthelDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C237A51EF80BEE00A39C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68C2379F1EF80BEE00A39C8B = {
+			isa = PBXGroup;
+			children = (
+				68C237AA1EF80BEE00A39C8B /* Barthel */,
+				68C237A91EF80BEE00A39C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68C237A91EF80BEE00A39C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C237A81EF80BEE00A39C8B /* Barthel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C237AA1EF80BEE00A39C8B /* Barthel */ = {
+			isa = PBXGroup;
+			children = (
+				68C237AB1EF80BEE00A39C8B /* AppDelegate.swift */,
+				68C237AF1EF80BEE00A39C8B /* Main.storyboard */,
+				68C237B21EF80BEE00A39C8B /* Assets.xcassets */,
+				68C237B41EF80BEE00A39C8B /* LaunchScreen.storyboard */,
+				68C237B71EF80BEE00A39C8B /* Info.plist */,
+				68C237BD1EF8113500A39C8B /* BarthelViewController.swift */,
+				68C237BF1EF8114D00A39C8B /* FIMViewController.swift */,
+				68C237C11EF8116200A39C8B /* ADLViewController.swift */,
+				68C237C31EF8118900A39C8B /* KaigoViewController.swift */,
+				68599F1C1F0D2D0E00866D70 /* Barthel.xcdatamodeld */,
+				6853821B1F261A1A005C1B20 /* BarthelTableViewController.swift */,
+				68E0AFFB1F2D833B00915118 /* BarthelDetailViewController.swift */,
+				68C86D771F375B290014A8FB /* FIMTableViewController.swift */,
+				68C86D791F375E9E0014A8FB /* FIMDetailViewController.swift */,
+				68853E331F3D569F000ED841 /* ADLTableViewController.swift */,
+				68853E351F3D56D6000ED841 /* ADLDetailViewController.swift */,
+			);
+			path = Barthel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68C237A71EF80BEE00A39C8B /* Barthel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C237BA1EF80BEE00A39C8B /* Build configuration list for PBXNativeTarget "Barthel" */;
+			buildPhases = (
+				68C237A41EF80BEE00A39C8B /* Sources */,
+				68C237A51EF80BEE00A39C8B /* Frameworks */,
+				68C237A61EF80BEE00A39C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barthel;
+			productName = Barthel;
+			productReference = 68C237A81EF80BEE00A39C8B /* Barthel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C237A01EF80BEE00A39C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Matsui Keiji";
+				TargetAttributes = {
+					68C237A71EF80BEE00A39C8B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7GW64MW9FF;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 68C237A31EF80BEE00A39C8B /* Build configuration list for PBXProject "Barthel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68C2379F1EF80BEE00A39C8B;
+			productRefGroup = 68C237A91EF80BEE00A39C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C237A71EF80BEE00A39C8B /* Barthel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C237A61EF80BEE00A39C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C237B61EF80BEE00A39C8B /* LaunchScreen.storyboard in Resources */,
+				68C237B31EF80BEE00A39C8B /* Assets.xcassets in Resources */,
+				68C237B11EF80BEE00A39C8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C237A41EF80BEE00A39C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C237C01EF8114D00A39C8B /* FIMViewController.swift in Sources */,
+				68C237AC1EF80BEE00A39C8B /* AppDelegate.swift in Sources */,
+				6853821C1F261A1A005C1B20 /* BarthelTableViewController.swift in Sources */,
+				68C237C41EF8118900A39C8B /* KaigoViewController.swift in Sources */,
+				68599F1E1F0D2D0E00866D70 /* Barthel.xcdatamodeld in Sources */,
+				68853E361F3D56D6000ED841 /* ADLDetailViewController.swift in Sources */,
+				68C86D7A1F375E9E0014A8FB /* FIMDetailViewController.swift in Sources */,
+				68853E341F3D569F000ED841 /* ADLTableViewController.swift in Sources */,
+				68C237C21EF8116200A39C8B /* ADLViewController.swift in Sources */,
+				68C86D781F375B290014A8FB /* FIMTableViewController.swift in Sources */,
+				68E0AFFC1F2D833B00915118 /* BarthelDetailViewController.swift in Sources */,
+				68C237BE1EF8113500A39C8B /* BarthelViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68C237AF1EF80BEE00A39C8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C237B01EF80BEE00A39C8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68C237B41EF80BEE00A39C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C237B51EF80BEE00A39C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68C237B81EF80BEE00A39C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68C237B91EF80BEE00A39C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68C237BB1EF80BEE00A39C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7GW64MW9FF;
+				INFOPLIST_FILE = Barthel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WF68CP2P77.Barthel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44e15622-2478-4c8e-86c3-9b3ee4424c93";
+				PROVISIONING_PROFILE_SPECIFIER = PP170811Barthel;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68C237BC1EF80BEE00A39C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 7GW64MW9FF;
+				INFOPLIST_FILE = Barthel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WF68CP2P77.Barthel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b5b9f98-a591-4d4a-bcb5-8c473db2176c";
+				PROVISIONING_PROFILE_SPECIFIER = DP170811Barthel;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68C237A31EF80BEE00A39C8B /* Build configuration list for PBXProject "Barthel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C237B81EF80BEE00A39C8B /* Debug */,
+				68C237B91EF80BEE00A39C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C237BA1EF80BEE00A39C8B /* Build configuration list for PBXNativeTarget "Barthel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C237BB1EF80BEE00A39C8B /* Debug */,
+				68C237BC1EF80BEE00A39C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68599F1C1F0D2D0E00866D70 /* Barthel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68599F1D1F0D2D0E00866D70 /* Barthel.xcdatamodel */,
+			);
+			currentVersion = 68599F1D1F0D2D0E00866D70 /* Barthel.xcdatamodel */;
+			path = Barthel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68C237A01EF80BEE00A39C8B /* Project object */;
+}
